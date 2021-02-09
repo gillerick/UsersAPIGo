@@ -60,9 +60,9 @@ func RegistrationHandler(w http.ResponseWriter, r *http.Request){
 			w.WriteHeader(http.StatusInternalServerError)
 		}
 		user := FromJSON(body)
-		id, created := CreateUser(user)
+		name, created := CreateUser(user)
 		if created{
-			w.Header().Add("Location", "/api/users/"+id)
+			w.Header().Add("Location", "/api/register/"+name)
 			w.WriteHeader(http.StatusCreated)
 		}else {
 			w.WriteHeader(http.StatusConflict)
