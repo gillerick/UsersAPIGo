@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"net/http"
-	"os"
 )
 
 //User type: name, age, gender, email, phone number
@@ -104,15 +103,6 @@ func CreateUser(user User) (string, bool) {
 	}
 	users[user.Name] = user
 	return user.Name, true
-}
-
-
-func port() string {
-	port := os.Getenv("PORT")
-	if len(port) == 0{
-		port = "8080"
-	}
-	return ":"+port
 }
 
 

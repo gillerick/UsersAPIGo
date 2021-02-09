@@ -1,6 +1,9 @@
 package api
 
-import "testing"
+import (
+	"github.com/stretchr/testify/assert"
+	"testing"
+)
 
 func TestUserToJSON(t *testing.T) {
 	user := User{
