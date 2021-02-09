@@ -1,5 +1,5 @@
 
-# Sample Go web application
+# Go Users API
 
 This is a simple Golang REST API that registers user details and returns registered user details on a GET request
 | Language | Platform | Author |
