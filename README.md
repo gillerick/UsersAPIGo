@@ -1,10 +1,10 @@
 
 # Sample Go web application
 
-This is a sample GO Lang web application built on [visual studio code](https://code.visualstudio.com/).
+This is a simple Golang REST API that registers user details and returns registered user details on a GET request
 | Language | Platform | Author |
 | -------- | --------|--------|
-| Go Lang |  Azure Web App| |
+| Go Lang |  Azure Web App| Gill Erick |
 
 
 ## Installation
