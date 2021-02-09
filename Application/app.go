@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Users/Application/api"
+	"./api"
 	"log"
 	"net/http"
 	"os"
