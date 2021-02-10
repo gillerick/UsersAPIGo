@@ -6,6 +6,9 @@ This is a simple Golang REST API that registers user details and returns registe
 | -------- | --------|--------|
 | Go Lang |  Azure Web App| Gill Erick |
 
+## Endpoints
+[GET](https://usersapigo.azurewebsites.net/api/users)
+[POST](https://usersapigo.azurewebsites.net/api/users) 
 
 ## Installation
 For Development, you need Go lang setup.
